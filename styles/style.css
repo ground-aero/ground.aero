@@ -1,8 +1,23 @@
+/* horizontal aligning */
 #wrapper {
-   box-sizing: border-box;
-   max-width: 1200px;
-   min-height: 100vh;
-   padding: 0 100px 0;
-   margin: 0 auto;
-   background-color: #ccc;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0 100px 0;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+
+/* vertical aligning */
+.root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  flex-shrink: 0;
 }
