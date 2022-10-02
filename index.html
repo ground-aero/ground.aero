@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>ground.aero</title>
 </head>
 
@@ -14,10 +14,27 @@
 <body class="root">
     <!-- horizontal aligning -->
     <div id="wrapper">
-        <header class="header"></header>
+        <header class="header">
+            <!-- main menu -->
+            <nav class="menu menu_main">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">NEWS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">EVENTS</a></li>
+                    <div class="submenu__wrap">
+                        <li class="menu__item menu__item_lib"><a class="menu__link" href="#">LIBRARY</a></li>
+                        <ul class="submenu submenu_list">
+                            <li class="submenu__item"><a href="#" class="submenu__link">SGHA IATA</a></li>
+                            <li class="submenu__item"><a href="#" class="submenu__link">Covid map</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </nav>
+
+        </header>
 
         <!-- main = flex 1, column  -->
-        <main role="main-content" class="main-content">
+        <main role="main-content" class="main">
             <aside class="left"></aside>
             <aside class="right"></aside>
             <section class="center-intro">
@@ -37,6 +54,7 @@
         <footer class="footer"></footer>
     </div>
     <!--end outer wrapper-->
+    <script src="./pages/script.js" defer></script>
 
 </body>
 

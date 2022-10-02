@@ -4,7 +4,7 @@
   max-width: 1200px;
   padding: 0 100px 0;
   margin: 0 auto;
-  background-color: #ccc;
+  background-color: rgb(240, 243, 245);
 }
 
 /* vertical aligning */
@@ -20,4 +20,75 @@
 
 .footer {
   flex-shrink: 0;
+}
+
+/*menu* -------------------------------------*/
+.menu_main {
+}
+
+.menu__list {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.menu__item:hover {
+  /* background-color: rgb(255, 255, 255); */
+  /* border: 1px solid grey; */
+  border-radius: 4px;
+  /* font-size: 24px; */
+}
+.menu__link {
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+  font-weight: 500;
+  font-size: 22px;
+  padding: 15px;
+}
+.menu__link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+/* .menu__link:hover {
+  font-size: 22px;
+  padding: 15px;
+  text-decoration: underline;
+} */
+
+/*submenu*/
+.submenu {
+  display: none;
+}
+.submenu__wrap {
+  display: inline-block;
+  position: relative;
+}
+.submenu_list {
+  position: absolute;
+  top: 35px;
+  
+  padding: 5px;
+  /* background-color: rgb(192, 227, 228); */
+  box-shadow: 0px 2px 3px #888888;
+  border-radius: 7px;
+}
+.submenu__item {
+  width: max-content;
+  list-style: none;
+  padding: 8px;
+}
+.submenu__link {
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px;
+}
+.submenu_active {
+  /*active*/
+  display: block;
 }
