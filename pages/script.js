@@ -1,5 +1,5 @@
 
-/*menu*/
+/*menu & submenu -----------------------------------*/
 const menuBody = document.querySelector('.menu')
 const submenu = document.querySelector('.submenu');
 
