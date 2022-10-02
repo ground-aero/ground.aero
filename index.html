@@ -12,33 +12,36 @@
 <!-- vertical aligning -->
 
 <body class="root">
+    <header class="header">
+        <img class="header__logo" src="./images/groundaero_logoline.png" alt="logo ground aero">
+        <!-- main menu -->
+        <nav class="menu menu_main">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">NEWS</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">EVENTS</a></li>
+                <div class="submenu__wrap">
+                    <li class="menu__item menu__item_lib"><a class="menu__link" href="#">LIBRARY</a></li>
+                    <ul class="submenu submenu_list">
+                        <li class="submenu__item"><a href="#" class="submenu__link">SGHA IATA</a></li>
+                        <li class="submenu__item"><a href="#" class="submenu__link">Covid map</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </nav>
+    
+    </header>
+
     <!-- horizontal aligning -->
     <div id="wrapper">
-        <header class="header">
-            <!-- main menu -->
-            <nav class="menu menu_main">
-                <ul class="menu__list">
-                    <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">NEWS</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">EVENTS</a></li>
-                    <div class="submenu__wrap">
-                        <li class="menu__item menu__item_lib"><a class="menu__link" href="#">LIBRARY</a></li>
-                        <ul class="submenu submenu_list">
-                            <li class="submenu__item"><a href="#" class="submenu__link">SGHA IATA</a></li>
-                            <li class="submenu__item"><a href="#" class="submenu__link">Covid map</a></li>
-                        </ul>
-                    </div>
-                </ul>
-            </nav>
-
-        </header>
+        
 
         <!-- main = flex 1, column  -->
         <main role="main-content" class="main">
             <aside class="left"></aside>
             <aside class="right"></aside>
             <section class="center-intro">
-                <h1 class="header"></h1>
+                <h1 class="center-intro__header"></h1>
             </section>
 
             <section class="news">
