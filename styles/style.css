@@ -41,6 +41,11 @@
   display: inline-block;
   margin-right: 25px;
 }
+.menu__item_lib {
+  min-width: 175px;
+  text-align: center;
+  border-left: 1px solid grey;
+}
 
 .menu__item:hover {
   /* background-color: rgb(255, 255, 255); */
@@ -48,6 +53,7 @@
   border-radius: 4px;
 }
 .menu__link {
+  min-width: 180px;
   text-decoration: none;
   color: rgb(77, 77, 77);
   font-weight: 400;
@@ -70,7 +76,7 @@
 .submenu_list {
   position: absolute;
   top: 35px;
-
+  left: 35px;
   padding: 5px;
   /* background-color: rgb(192, 227, 228); */
   box-shadow: 0px 2px 3px #888888;
@@ -88,6 +94,11 @@
   font-size: 18px;
   padding: 12px;
 }
+.submenu__link:hover {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
 .submenu_active {
   /*active*/
   display: block;
