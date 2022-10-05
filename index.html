@@ -12,7 +12,7 @@
 <!-- vertical aligning -->
 
 <body class="root">
-    <header class="header">
+    <div class="panel">
         <img class="header__logo" src="./images/groundaero_logoline.png" alt="logo ground aero">
         <!-- main menu -->
         <nav class="menu menu_main">
@@ -29,32 +29,38 @@
                 </div>
             </ul>
         </nav>
-    
-    </header>
+    </div>
+
+    <!-- <div class="date-container">Today is: <p class="date"></p>
+    </div> -->
 
     <!-- horizontal aligning -->
-    <div id="wrapper">
-        
+    <main role="main-content" class="main">
+        <div id="wrapper">
 
-        <!-- main = flex 1, column  -->
-        <main role="main-content" class="main">
-            <aside class="left"></aside>
-            <aside class="right"></aside>
-            <section class="center-intro">
-                <h1 class="center-intro__header"></h1>
+            <header id="header">
+                <div class="main-image"></div>
+            </header>
+
+            <!-- main = flex 1, column  -->
+
+            <section id="center">
+                <h1 class="center-intro__header">Center</h1>
             </section>
+            <aside id="left">left</aside>
+            <aside id="right">right</aside>
 
-            <section class="news">
+            <!-- <section class="news">
                 <h2 class="header__news"></h2>
             </section>
 
             <section class="events">
                 <h3 class="events__header"></h3>
-            </section>
+            </section> -->
 
-        </main>
+            <footer id="footer"></footer>
+    </main>
 
-        <footer class="footer"></footer>
     </div>
     <!--end outer wrapper-->
     <script src="./pages/script.js" defer></script>
