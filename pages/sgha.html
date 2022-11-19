@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
-    <title>ground.aero</title>
+    <link rel="stylesheet" href="./index.css">
+    <title>sgha2018 | ground.aero</title>
 </head>
 
 <!-- vertical aligning -->
 
 <body class="root">
     <div class="panel">
-        <img class="header__logo" src="./images/groundaero_logoline.png" alt="logo ground aero">
+        <img class="header__logo" src="../images/groundaero_logoline.png" alt="logo ground aero">
         <!-- main menu -->
         <nav class="menu menu_main">
             <ul class="menu__list">
@@ -47,7 +47,26 @@
             <!-- main = flex 1, column  -->
 
             <section id="center">
-                <h1 class="center-intro__header">Center</h1>
+                <h1 class="center-intro__header">Center | SGHA 2018</h1>
+
+                <!-- <title>Fetch starting point</title> -->
+                <h1>Fetch starting point</h1>
+                
+                <form>
+                    <label for="verse-choose">Choose a version</label>
+                    <select id="verse-choose" name="verse-choose">
+                        <option>Vers 2018</option>
+                        <option>Vers 2013</option>
+                        <option>Vers 2009</option>
+                        </select>
+                </form>
+                
+                <h2>IATA Center <em>Data Base</em></h2>
+                
+                <pre>
+                
+                </pre>
+
             </section>
             <aside id="left">left</aside>
             <aside id="right">right</aside>
@@ -65,7 +84,8 @@
 
     </div>
     <!--end outer wrapper-->
-    <script src="./pages/script.js" defer></script>
+    <script src="./script.js" defer></script>
+    <script src="../utils/fetch-database.js"></script>
 
 </body>
 
