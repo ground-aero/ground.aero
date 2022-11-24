@@ -1,4 +1,4 @@
-# Project: ground aero
+# ground.aero - refactoring code from Tilda to JS,HTML5,CSS3
 
 ### Review
 
@@ -13,10 +13,8 @@
   <!-- - Файловая структура проекта построена по БЭМ/CSS -->
   <!-- - Размер картинок оптимизирован для быстроты загрузки -->
 
-**Xxx**
+**.**
 
-- [Ссылка-1 на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+- [link to current project in Tilda](http://ground.aero)
 
-**Описание / тех-задание**
-
-<!-- - [Ссылка на сайт](https://ground-aero.github.io/ground.aero/) -->
+<!-- - [current refactoring](https://ground-aero.github.io/ground.aero/) -->

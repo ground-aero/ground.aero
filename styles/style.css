@@ -47,6 +47,8 @@ pre {
   letter-spacing: 0.05rem;
   padding: 1rem;
   background-color: white;
+  font-size: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 /* horizontal aligning */

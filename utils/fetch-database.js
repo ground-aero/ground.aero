@@ -12,7 +12,9 @@ function updateDisplay(vers) {
   let url = vers + '.txt';
 
   fetch(`../database/${url}`)
-    .then((response) => response.text())
+    .then((response) => {
+      return response.text()
+    })
     .then((text) => {
       poemDisplay.textContent = text;
     })
