@@ -2,16 +2,16 @@
 
 ### Review
 
-- Stacks & Techs used:
+- Techs used:
 
-  - HTML5, CSS
+  - HTML5, CSS3
   - JavaScript
 
 - CSS grid layout
 
-- Реализована адаптивность размера экранов до ....px
-  <!-- - Файловая структура проекта построена по БЭМ/CSS -->
-  <!-- - Размер картинок оптимизирован для быстроты загрузки -->
+- Adaptive 320-767-980-1200px
+  <!-- - File structure / BEM/CSS3 -->
+  <!-- - Imgs optimisation -->
 
 **.**
 
